@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+}
+
+/* ATRIBUTOS DE TITULOS/SUBTITULOS */
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465B52;
+    margin:  15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+body{
+    width: 100%;
+}
+
+
+/* HEADER */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: bisque;
+    box-shadow: 0 5px 15px rgb(0 red, 0 green, 0 blue, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* NAVEGACION */
+#nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_menu li{
+    list-style: none;
+    padding: 0 15px;
+    position: relative;
+}
+
+#nav_menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3S ease;
+}
+
+#nav_menu li a:hover{
+    color: blueviolet;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/* PAGINA PRINCIPAL */
+
+#banner{
+    background-image: url(../images/banner1.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#banner h4{
+    padding-bottom: 15px;
+}
+
+#banner h1{
+    color: purple;
+}
+
+/* RECORDATORIO: Re-hacer button1.png, por que te hincha las pelotas pelearte con el padding. */
+#banner button{
+    background-image: url(../images/button1.png);
+    background-color: transparent;
+    color: aliceblue;
+    border: 0;
+    padding: 35px 80px 6px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
